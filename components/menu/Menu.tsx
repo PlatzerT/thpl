@@ -5,10 +5,10 @@ import MobileMenu from './mobile/MobileMenu';
 export default function Menu() {
 	return (
 		<>
-			<div className="hidden md:block">
+			<div className="hidden py-5 md:block">
 				<DesktopMenu />
 			</div>
-			<div className="block md:hidden">
+			<div className="block py-5 md:hidden">
 				<MobileMenu />
 			</div>
 		</>

@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
 	mode: 'jit',
 	purge: [
@@ -8,9 +10,19 @@ module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		fontFamily: {
-			sans: ['DM Sans', 'sans-serif'],
+			sans: ['DM Sans', 'sans-serif', ...defaultTheme.fontFamily.sans],
 		},
-		extend: {},
+
+		extend: {
+			fontFamily: {
+				quote: "'Times New Roman', serif",
+				heading: "'Bodoni Moda', serif",
+				raleway: "'Raleway', sans-serif",
+			},
+			colors: {
+				bgDark: '#212121',
+			},
+		},
 	},
 	variants: {
 		extend: {},

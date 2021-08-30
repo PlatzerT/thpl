@@ -14,7 +14,7 @@ const ErrorPage: NextPage = () => {
 				alt="Page not found!"
 			/>
 			<div>
-				<div className="text-4xl font-bold">Whoops...</div>
+				<div className="text-4xl font-bold dark:text-white">Whoops...</div>
 				<div className="text-lg text-gray-600">This page does not exist...</div>
 			</div>
 

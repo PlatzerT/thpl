@@ -3,12 +3,11 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Layout from '@components/Layout';
 import { ThemeProvider } from 'next-themes';
-
-import '@fontsource/dm-sans';
+import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
-		<div className="w-full h-screen dark:bg-gray-900">
+		<div className="w-full h-screen dark:bg-[#121212]">
 			<Head>
 				<link
 					rel="apple-touch-icon"
