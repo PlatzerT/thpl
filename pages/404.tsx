@@ -18,10 +18,7 @@ const ErrorPage: NextPage = () => {
 				<div className="text-lg text-gray-600">This page does not exist...</div>
 			</div>
 
-			<button
-				className="self-center px-5 py-3 text-white transition-all duration-75 bg-purple-600 hover:bg-opacity-80"
-				onClick={() => router.back()}
-			>
+			<button className="self-center cta" onClick={() => router.back()}>
 				Return
 			</button>
 		</div>
