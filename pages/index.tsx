@@ -1,4 +1,3 @@
-import Badge from '@components/Badge';
 import { ArrowRight, FastArrowDown } from 'iconoir-react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
@@ -99,6 +98,60 @@ const Home: NextPage = () => {
 								<li>Order management for the employees</li>
 							</ul>
 						</div>*/}
+					</div>
+				</div>
+			</section>
+			<section className="h-screen">
+				<div className="flex items-center justify-between md:space-x-10">
+					<div className="flex-grow h-[1px] bg-black hidden md:flex dark:bg-white"></div>
+					<div className="text-4xl text-black md:text-center md:flex-shrink-0 dark:text-white">
+						Education & Experience
+					</div>
+					<div className="flex-1 h-[1px] bg-black hidden md:flex dark:bg-white"></div>
+				</div>
+				<div className="grid mt-20 lg:grid-cols-3 md:grid-cols-2 gap-y-16">
+					<div className="space-y-4">
+						<div className="font-semibold text-gray-400 font-raleway">
+							SCHOOL
+						</div>
+						<div>
+							<div className="font-bold">Elementary School Pettenbach</div>
+							<div className="text-sm">2010-2014</div>
+						</div>
+						<div>
+							<div className="font-bold">High School Pettenbach</div>
+							<div className="text-sm">2014-2018</div>
+						</div>
+						<div>
+							<div className="font-bold">Higher Technical College Wels</div>
+							<div className="-mt-1">Information Technology</div>
+							<div className="text-sm">2018-</div>
+						</div>
+					</div>
+					<div className="space-y-4">
+						<div className="font-semibold text-gray-400 font-raleway">
+							INTERNSHIPS
+						</div>
+						<div>
+							<div className="font-bold">Kontron Technologies GmbH in Linz</div>
+							<div className="-mt-1">Angular</div>
+							<div className="text-sm">2020</div>
+						</div>
+						<div>
+							<div className="font-bold">Zentro GmbH in Scharnstein</div>
+							<div className="-mt-1"> Angular, Spring Boot</div>
+							<div className="text-sm">2021</div>
+						</div>
+					</div>
+					<div className="space-y-4">
+						<div className="font-semibold text-gray-400 font-raleway">
+							SIDE HUSTLES
+						</div>
+						<div>
+							<div className="font-bold">Zentro GmbH in Scharnstein</div>
+							<div className="-mt-1">UI/UX Designer, Angular</div>
+							<div className="text-sm">2021-</div>
+						</div>
 					</div>
 				</div>
 			</section>
